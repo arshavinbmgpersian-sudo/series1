@@ -11,6 +11,19 @@
       "database_id": "51f27053-4149-4d53-8755-5c4809a0ee50"
     }
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  "name": "movie-bot",
+
+  "main": "index.js",
+
+  "compatibility_date": "2025-01-01",
+
+  "vars": {
+    "ADMIN_ID": "123456789"
+  }
+}
+{
   "triggers": {
     "crons": ["*/5 * * * *"]
   }
